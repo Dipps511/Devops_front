@@ -1,5 +1,5 @@
-import { Route, Routes } from "react-router-dom";
-import "./App.css";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import ProductDetails from "./pages/ProductDetails";
@@ -8,7 +8,6 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Dashboard from "./pages/dashboard/Dashboard";
 import ProductManage from "./pages/dashboard/ProductManage";
-import Products from "./components/products/Products";
 import ProductDashboard from "./pages/dashboard/ProductDashboard";
 import AddProduct from "./pages/dashboard/AddProduct";
 import EditProduct from "./pages/dashboard/EditProduct";
